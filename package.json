@@ -1,0 +1,20 @@
+{
+  "name": "haitao",
+  "version": "1.0.0",
+  "description": "海淘网",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
+    "gulp-connect-proxy": "^0.3.1",
+    "gulp-sass-china": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lebin",
+  "license": "ISC"
+}

@@ -1,0 +1,135 @@
+@import "./both.scss";
+.footer {
+  width: 100%;
+  height: 1000px;
+  .box1 {
+    width: 1200px;
+    height: 170px;
+    padding-top: 20px;
+    border-top: 3px solid #333;
+    margin: 0 auto;
+    background: #f2f2f2;
+    margin-bottom: 15px;
+    .cs {
+      width: 183px;
+      height: 125px; // background:#ccc;
+      float: left;
+      margin: 10px 100px 0 0;
+      p {
+        width: 183px;
+        height: 35px;
+        line-height: 35px;
+        padding-left: 30px;
+        a {
+          color: #000;
+          font-size: 18px;
+        }
+      }
+    }
+    .uswlist {
+      width: 200px;
+      height: 153px; //    background:#ff0;
+      float: left;
+      padding: 8px 60px 0 0;
+      li {
+        width: 200px;
+        height: 25.6px;
+        a {
+          color: #4c4c4c;
+          font-size: 14px;
+          display: block;
+          text-align: left;
+        }
+      }
+    }
+    .uswposh {
+      width: 254px;
+      height: 137px; //    background:#ccc;
+      float: left;
+      span {
+        display: block;
+        font-size: 18px;
+        text-align: center;
+      }
+      ul {
+        width: 250px;
+        height: 40px; //    background: #0a0;
+        li {
+          width: 27px;
+          height: 22px;
+          float: left;
+          margin: 20px 28px 0 7px;
+        }
+      }
+      input {
+        width: 253px;
+        height: 30px;
+        border: 1px solid #000;
+        color: #ccc;
+        margin-top: 24px;
+      }
+    }
+    .rightma {
+      width: 95px;
+      height: 129px; // background:#4c4c4c;
+      float: right;
+      p {
+        font-size: 16px;
+        margin: 2px 0 5px;
+      }
+      img {
+        width: 85px;
+        height: 85px;
+      }
+    }
+  }
+  .btnav {
+    width: 1200px;
+    height: 32px;
+    margin: 0 auto;
+    ul {
+      min-width: 1000px;
+      height: 32px;
+      clear: both;
+      li {
+        display: inline;
+        text-align: center;
+        line-height: 32px;
+        border-right: 1px solid #d5ccd5;
+        a {
+          display: inline-block;
+          color: #000;
+          margin: 0 8px 0 6px;
+        }
+      }
+    }
+    li:nth-child(10) {
+      border-right: none;
+    }
+    a:hover {
+      color: #3cff00;
+    }
+  }
+  .for_btn {
+    width: 1200px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 10px 0;
+
+    p {
+      width: 630px;
+      height: 50px;
+      margin: 0 auto;
+    }
+    a {
+      width: 145px;
+      height: 44px;
+      margin-left: 47px;
+      // line-height: 44px;
+      img {
+        width: 145px;
+        height: 44px;
+      }
+    }
+  }
+}

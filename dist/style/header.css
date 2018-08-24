@@ -1,0 +1,191 @@
+@charset "UTF-8";
+body {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+a {
+  text-decoration: none; }
+
+i, em {
+  font-style: normal; }
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px; }
+
+.fix {
+  width: 100%;
+  height: 100%;
+  background: #333; }
+
+.box {
+  width: 1200px;
+  height: 93px;
+  background: url(../img/top.jpg) no-repeat 50% 6px;
+  position: relative;
+  margin: 0 auto; }
+  .box .box1 {
+    width: 400px;
+    height: 20px;
+    float: left;
+    padding-top: 15px; }
+    .box .box1 li {
+      width: 80px;
+      float: left;
+      position: relative; }
+      .box .box1 li a {
+        display: block;
+        width: 80px;
+        color: #d7d7d7; }
+    .box .box1 li:nth-child(3) ol {
+      width: 70px;
+      height: 160px;
+      display: none;
+      background: #fff;
+      position: absolute;
+      top: -3px;
+      padding: 0;
+      z-index: 20; }
+      .box .box1 li:nth-child(3) ol li {
+        line-height: 25px;
+        width: 75px;
+        color: #000;
+        text-align: center; }
+      .box .box1 li:nth-child(3) ol a {
+        display: block;
+        color: #787878;
+        text-align: center; }
+      .box .box1 li:nth-child(3) ol a:hover {
+        color: red; }
+    .box .box1 a:hover {
+      color: #787878; }
+  .box li:nth-child(3):hover ol {
+    display: block; }
+  .box input {
+    width: 260px;
+    height: 25px;
+    background: #333;
+    border: 1px solid #787878;
+    color: #787878;
+    position: absolute;
+    right: 0;
+    top: 10px; }
+
+.nav1 {
+  width: 1200px;
+  height: 44px;
+  position: relative;
+  top: 48px;
+  left: 0;
+  margin: 0 auto; }
+  .nav1 .listnav {
+    width: 800px;
+    height: 44px;
+    margin: 0 auto;
+    position: absolute;
+    left: 200px;
+    z-index: 5; }
+    .nav1 .listnav li {
+      height: 44px;
+      line-height: 44px;
+      margin: 0 auto;
+      display: inline-block; }
+      .nav1 .listnav li a {
+        display: inline-block;
+        color: #fff;
+        font-size: 15px;
+        padding: 12px 15px 10px;
+        margin: 0 6px;
+        line-height: 20px; }
+    .nav1 .listnav a:hover {
+      color: #8eb1bf;
+      border-bottom: 3px solid #727071; }
+
+.nav-back {
+  width: 100%;
+  height: 42px;
+  background: #f7f7f7; }
+  .nav-back .nav-fix {
+    width: 1200px;
+    height: 42px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center; }
+  .nav-back .nav-bottom {
+    display: inline-block;
+    overflow: hidden; }
+  .nav-back .nav-bottom li {
+    float: left; }
+  .nav-back .nav-bottom li a {
+    display: block;
+    padding: 0 18px;
+    line-height: 42px;
+    color: #000;
+    font-size: 14px;
+    margin: 0 4px;
+    font-family: "宋体"; }
+  .nav-back .twonav {
+    width: 720px;
+    height: 307px;
+    position: absolute;
+    display: none;
+    background: #fff;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    z-index: 100; }
+  .nav-back .leftnav {
+    float: left;
+    clear: both;
+    width: 100%;
+    padding-bottom: 5px;
+    margin: 4px 0; }
+  .nav-back .leftnav p {
+    font-weight: bold;
+    text-align: left;
+    margin: 17px 0 0 10px; }
+  .nav-back .leftnav ul {
+    border-bottom: 1px dotted #959595;
+    width: 450px;
+    height: 42px;
+    line-height: 20px; }
+  .nav-back .leftnav ul li {
+    margin-top: 3px;
+    height: 15px;
+    padding: 0 10px;
+    font-size: 10px;
+    line-height: 15px;
+    border-right: 1px solid #787878; }
+  .nav-back .leftnav ul li:nth-child(6) {
+    border: none; }
+  .nav-back .leftnav ul li:nth-child(12) {
+    border: none; }
+  .nav-back .rightnav {
+    width: 257px;
+    height: 327px;
+    position: absolute;
+    top: 0;
+    left: 460px; }
+  .nav-back .rightnav h3 {
+    text-align: left;
+    margin: 17px 0 0 20px;
+    font-size: 15px; }
+  .nav-back .twonav .rightnav li {
+    width: 110px;
+    height: 25px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    text-align: left; }
+  .nav-back .nav-bottom li:hover a {
+    background: #fff; }
+  .nav-back .nav-bottom li:hover .twonav {
+    display: block; }

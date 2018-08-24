@@ -1,0 +1,219 @@
+//活动快捷入口开始
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.home_warp {
+    width: 100%;
+    .home_shortcut {
+        width: 1200px;
+        height: 86px;
+        margin: 0 auto;
+        padding: 20px 0 10px 0;
+        a {
+            display: block;
+            background: url(http://images.xiu.com/edm/hd_home_160308/shortcut3a.jpg) no-repeat;
+            float: left;
+            height: 86px;
+            margin: 0 30px 0 25px;
+            transition: all 0.5s;
+        }
+        .home_1 {
+            width: 240px;
+            background-position: 20px 0;
+        }
+        .home_2 {
+            width: 240px;
+            background-position: -230px 0;
+        }
+        .home_3 {
+            width: 240px;
+            background-position: -725px 0;
+        }
+        .home_4 {
+            width: 240px;
+            background-position: -965px 0;
+        }
+    }
+    .home_shortcut .home_1:hover {
+        background-position: 5px 0;
+    }
+    .home_shortcut .home_2:hover {
+        background-position: -255px 0;
+    }
+    .home_shortcut .home_3:hover {
+        background-position: -750px 0;
+    }
+    .home_shortcut .home_4:hover {
+        background-position: -990px 0;
+    } // 4动图结束
+    //最新活动
+    .tite {
+        width: 1200px;
+        height: 40px;
+        margin: 0 auto;
+        clear: both;
+        margin-bottom: 20px;
+        img {
+            display: block;
+            width: 300px;
+            height: 40px;
+            margin: 0 auto;
+        }
+    } //新品到货
+    .f1 {
+        width: 1200px;
+        height: 340px;
+        margin: 0 auto;
+        ul {
+            width: 1200px;
+            height: 300px;
+            .leftimg {
+                display: block;
+                width: 600px;
+                height: 300px;
+                position: relative;
+                overflow: hidden;
+                float: left;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    transition: all 0.5s;
+                }
+                p {
+                    display: block;
+                    width: 169px;
+                    height: 90px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                }
+            }
+            .rightimg {
+                display: block;
+                width: 600px;
+                height: 300px;
+                float: right;
+                overflow: hidden;
+                position: relative;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    transition: all 0.5s;
+                }
+                p {
+                    display: block;
+                    width: 329px;
+                    height: 90px;
+                    position: absolute;;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    margin: auto;
+                }
+            }
+        }
+        .leftimg:hover a img {
+            transform: scale(1.03);
+        }
+        .rightimg:hover a img {
+            transform: scale(1.03);
+        }
+    } //尖货推荐
+    .tite1 {
+        width: 1200px;
+        height: 60px;
+        margin: 0 auto;
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 301px;
+            height: 40px;
+        }
+    }
+    .f2 {
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        ul {
+            width: 1200px;
+            height: 580px;
+            margin-bottom: 40px;
+            float: left;
+            a {
+                display: block;
+                float: left;
+                width: 397px;
+                height: 288px;
+                margin: 0 3px 4px 0;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        a:hover {
+            opacity: 0.5;
+        }
+    } //更多链接
+    .lianjie {
+        width: 1200px;
+        height: 55px;
+        margin: 0 auto;
+        clear: both;
+        a {
+            display: block;
+            text-align: center;
+        }
+    } //豪车
+    .che {
+        width: 1200px;
+        height: 400px;
+        padding: 20px 0 50px;
+        margin: 0 auto;
+    }
+    .che a:hover {
+        opacity: 0.8;
+    } 
+    //发现好货
+    .pop {
+        width: 1200px;
+        margin: 0 auto;
+        ul {
+            width: 1217px;
+            margin: 0 auto 20px;
+            li{
+               width:287px;
+               margin:0 17px 20px 0;
+                float: left;
+                a{
+                    display: block;
+                    width:100%;
+                    height:100%;
+                    position: relative;
+                }
+                p{
+                    position: absolute;
+                    left:0;
+                    top:0;
+                    width:285px;
+                    height:488px;
+                    border:2px solid #d5d5d5;
+                    display: none;
+                }
+            }
+            li:hover p{
+                display: block;
+            }
+        } 
+    }
+}
