@@ -12,7 +12,8 @@ ul, ol {
   text-align: center; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #000; }
 
 i, em {
   font-style: normal; }

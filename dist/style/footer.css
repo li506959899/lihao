@@ -12,7 +12,8 @@ ul, ol {
   text-align: center; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #000; }
 
 i, em {
   font-style: normal; }
@@ -24,7 +25,7 @@ p {
 
 .footer {
   width: 100%;
-  height: 1000px; }
+  height: 100%; }
   .footer .box1 {
     width: 1200px;
     height: 170px;
@@ -72,9 +73,26 @@ p {
         height: 40px; }
         .footer .box1 .uswposh ul li {
           width: 27px;
-          height: 22px;
+          height: 25px;
           float: left;
-          margin: 20px 28px 0 7px; }
+          margin: 20px 28px 0 7px;
+          background: url(http://www.xiustatic.com/static/css/default/img/comm/footer_sprite.gif) no-repeat; }
+        .footer .box1 .uswposh ul .weixin {
+          background-position: left -226px; }
+        .footer .box1 .uswposh ul .weibo {
+          background-position: -70px -226px; }
+        .footer .box1 .uswposh ul .instagram {
+          background-position: -144px -226px; }
+        .footer .box1 .uswposh ul .facebook {
+          background-position: -214px -226px; }
+        .footer .box1 .uswposh ul .weixin:hover {
+          background-position: left -263px; }
+        .footer .box1 .uswposh ul .weibo:hover {
+          background-position: -70px -263px; }
+        .footer .box1 .uswposh ul .instagram:hover {
+          background-position: -144px -263px; }
+        .footer .box1 .uswposh ul .facebook:hover {
+          background-position: -214px -263px; }
       .footer .box1 .uswposh input {
         width: 253px;
         height: 30px;
@@ -114,7 +132,7 @@ p {
       color: #3cff00; }
   .footer .for_btn {
     width: 1200px;
-    height: 70px;
+    height: 50px;
     margin: 0 auto;
     padding: 10px 0; }
     .footer .for_btn p {
@@ -128,3 +146,27 @@ p {
       .footer .for_btn a img {
         width: 145px;
         height: 44px; }
+  .footer .copyr {
+    width: 1200px;
+    height: 20px;
+    min-width: 1000px;
+    line-height: 20px;
+    text-align: center;
+    color: #999;
+    margin: 0 auto; }
+    .footer .copyr a {
+      margin: 0 3px;
+      color: #999;
+      font-weight: bold; }
+    .footer .copyr a:hover {
+      color: #3aff60; }
+  .footer .des_div {
+    height: 29px;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center; }
+    .footer .des_div a {
+      display: inline-block;
+      margin: 0 0 0 12px; }

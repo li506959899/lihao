@@ -1,0 +1,182 @@
+@charset "UTF-8";
+body {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+i, em {
+  font-style: normal; }
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px; }
+
+.maxtu {
+  width: 100%;
+  height: 440px;
+  margin-bottom: 20px; }
+  .maxtu div {
+    width: 1000px;
+    height: 440px;
+    margin: 0 auto; }
+
+.nav_con {
+  width: 100%;
+  height: 42px;
+  clear: both;
+  overflow: hidden;
+  z-index: 90; }
+  .nav_con .block_nav {
+    width: 1000px;
+    height: 42px;
+    background: #000;
+    margin: 0 auto; }
+    .nav_con .block_nav ul {
+      padding: 0px 20px;
+      text-align: left; }
+      .nav_con .block_nav ul li {
+        display: inline-block;
+        line-height: 42px; }
+        .nav_con .block_nav ul li a {
+          color: #d6d6d6;
+          display: inline-block;
+          padding-left: 15px;
+          font-weight: bold;
+          font-size: 14px; }
+    .nav_con .block_nav li:hover a {
+      color: red; }
+
+.tit {
+  width: 100%;
+  height: 100%;
+  clear: both;
+  overflow: hidden; }
+  .tit .titi {
+    width: 1000px;
+    height: 33px;
+    background: #e0e0e0;
+    margin: 0 auto;
+    margin-top: 20px;
+    clear: both;
+    overflow: hidden; }
+    .tit .titi b {
+      width: 3px;
+      height: 14px;
+      background: #e47313;
+      margin: 9px 5px 0 10px;
+      float: left; }
+    .tit .titi span {
+      font-size: 13px;
+      line-height: 33px;
+      color: #020202;
+      float: left; }
+    .tit .titi p {
+      float: right;
+      line-height: 33px;
+      padding-right: 10px;
+      color: #666; }
+      .tit .titi p a {
+        color: #666; }
+
+.spei {
+  width: 100%;
+  height: 100%; }
+
+.spei_xm {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden; }
+  .spei_xm ul {
+    width: 1000px;
+    float: left; }
+    .spei_xm ul .goodshover {
+      width: 311px;
+      height: 511px;
+      border: 2px solid #fff;
+      margin: 20px 18px 0 0;
+      float: left; }
+      .spei_xm ul .goodshover .fixname {
+        width: 315px;
+        height: 420px;
+        position: relative; }
+        .spei_xm ul .goodshover .fixname img {
+          display: block;
+          width: 312px;
+          height: 390px; }
+        .spei_xm ul .goodshover .fixname .size_p {
+          width: 309px;
+          height: 25px;
+          border: 1px solid #d8d8d8;
+          color: red; }
+        .spei_xm ul .goodshover .fixname .size_lie {
+          width: 310px;
+          height: 69px;
+          border-bottom: 1px solid #e7e7e7;
+          position: absolute;
+          top: 310px;
+          left: 0;
+          display: none;
+          background: #FFFFFF;
+          opacity: 0.8; }
+          .spei_xm ul .goodshover .fixname .size_lie dd {
+            display: block;
+            height: 14px;
+            padding: 10px 0 5px 10px;
+            text-align: left; }
+          .spei_xm ul .goodshover .fixname .size_lie dt {
+            width: 30px;
+            height: 22px;
+            color: #a4a4a4;
+            float: left;
+            border: 1px solid #666;
+            margin: 10px 9px 0 0; }
+      .spei_xm ul .goodshover span {
+        display: block;
+        text-align: left;
+        line-height: 25px; }
+      .spei_xm ul .goodshover b {
+        color: red;
+        display: inline-block;
+        text-align: left;
+        font-size: 20px;
+        line-height: 25px; }
+    .spei_xm ul .goodshover:hover {
+      border: 2px solid #ccc; }
+
+.Btbanner {
+  width: 100%; }
+  .Btbanner .Btba {
+    width: 1000px;
+    height: 90px;
+    margin: 0 auto; }
+
+.backtop {
+  width: 69px;
+  height: 260px;
+  position: fixed;
+  right: 30px;
+  bottom: 180px;
+  border: 2px solid #ccc; }
+  .backtop span {
+    display: block;
+    text-align: center;
+    color: red;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer; }
+  .backtop li {
+    border-bottom: 1px solid #ccc; }
+  .backtop li:nth-child(4) {
+    border-bottom: none; }

@@ -1,107 +1,138 @@
 @import "./both.scss";
-.fix {
+.fix_hg {
     width: 100%;
-    height: 100%;
-    background: #333;
-}
-
-.box {
-    width: 1200px;
     height: 93px;
-    background: url(../img/top.jpg) no-repeat 50% 6px;
-    position: relative;
-    margin: 0 auto;
-    .box1 {
-        width: 400px;
-        height: 20px;
-        float: left;
-        padding-top: 15px;
-        li {
-            width: 80px;
+    background: #333;
+    position: a;
+    .top_warp {
+        width: 1200px;
+        height: 83px;
+        margin: 0 auto;
+        padding: 10px 0 0;
+        background: url(../img/top.jpg) no-repeat 50% 6px; //注册头部
+        .rgto {
+            width: 400px;
+            height: 34px;
             float: left;
-            position: relative;
             a {
-                display: block;
-                width: 80px;
+                display: inline-block;
                 color: #d7d7d7;
             }
-        }
-        li:nth-child(3) ol {
-            width: 70px;
-            height: 160px;
-            display: none;
-            background: #fff;
-            position: absolute;
-            top: -3px;
-            padding: 0;
-            z-index: 20;
-            li {
-                line-height: 25px;
-                width: 75px;
-                color: #000;
-                text-align: center;
+            ul {
+                width: 400px;
+                height: 34px;
+                text-align: left;
+                li {
+                    display: inline-block;
+                    text-align: center;
+                }
+                .my_bag {
+                    width: 96px;
+                    height: 35px;
+                    margin: 0 4px 0 0;
+                    position: relative;
+                    a {
+                        display: inline-block;
+                        color: #d7d7d7;
+                    }
+                    .mybag {
+                        width: 298px;
+                        height: 67px;
+                        background: #fff;
+                        display: none;
+                        position: absolute;
+                        top: 35px;
+                        left: 0px;
+                        p {
+                            line-height: 30px;
+                            text-align: left;
+                            margin-left: 8px;
+                        }
+                    }
+                }
+                .login {
+                    margin: 0 10px;
+                }
+                .myxiu {
+                    width: 73px;
+                    height: 40px;
+                    position: relative;
+                    .ared {
+                        width: 73px;
+                        height: 40px;
+                    }
+                    div {
+                        width: 73px;
+                        position: absolute;
+                        top: 20px;
+                        left: 0px;
+                        background: #fff;
+                        display: none;
+                        a {
+                            display: block;
+                            color: #000;
+                            line-height: 25px;
+                        }
+                    }
+                }
+                .myxiu:hover div {
+                    display: block;
+                }
+                .myxiu:hover {
+                    background: #fff;
+                }
             }
-            a {
-                display: block;
-                color: #787878;
-                text-align: center;
+            .my_bag:hover a {
+                color: red;
             }
             a:hover {
+                color: #787867;
+            }
+            .my_bag:hover .mybag {
+                display: block;
+            }
+            .myxiu:hover .ared {
                 color: red;
             }
         }
-        a:hover {
-            color: #787878;
-        }
     }
-    li:nth-child(3):hover ol {
-        display: block;
+    .my_bag:hover {
+        background: #fff;
     }
     input {
         width: 260px;
-        height: 25px;
-        background: #333;
-        border: 1px solid #787878;
+        height: 22px;
+        float: right;
         color: #787878;
-        position: absolute;
-        right: 0;
-        top: 10px;
-    }
-}
-
-//导航开始
-.nav1 {
-    width: 1200px;
-    height: 44px;
-    position: relative;
-    top: 48px;
-    left: 0;
-    margin: 0 auto;
-    .listnav {
-        width: 800px;
+        border: 1px solid #787878;
+        background: #333;
+    } //导航1开始
+    .nav1 {
+        width: 100%;
         height: 44px;
-        margin: 0 auto;
         position: absolute;
-        left: 200px;
-        z-index: 5;
-       
-        li {
+        top: 48px;
+        left: 0;
+        .listnav {
+            width: 1200px;
             height: 44px;
-            line-height: 44px;
             margin: 0 auto;
-            display: inline-block;
-            a {
+            text-align: center;
+            li {
                 display: inline-block;
-                color: #fff;
-                font-size: 15px;
-                padding: 12px 15px 10px;
-                margin: 0 6px;
-                line-height: 20px;
+                a {
+                    display: inline-block;
+                    color: #fff;
+                    font-size: 15px;
+                    padding: 12px 15px 10px;
+                    margin: 0 6px;
+                    line-height: 20px;
+                }
             }
-        }
-        a:hover {
-            color: #8eb1bf;
-            border-bottom: 3px solid #727071;
+            a:hover {
+                color: #8eb1bf;
+                border-bottom: 3px solid #727071;
+            }
         }
     }
 }
@@ -120,18 +151,20 @@
     }
     .nav-bottom {
         display: inline-block;
-        overflow: hidden; // margin: 0 auto;
+       
+        overflow: hidden;
+        // margin: 0 auto;
     }
     .nav-bottom li {
         float: left;
     }
     .nav-bottom li a {
         display: block;
-        padding: 0 18px; 
+        padding: 0 18px;
         line-height: 42px;
         color: #000;
         font-size: 14px;
-        margin:0 4px;
+        margin: 0 4px;
         font-family: "宋体";
     } //二级导航开始            
     .twonav {
@@ -147,10 +180,11 @@
     } //左部
     .leftnav {
         float: left;
-        clear: both;
-        width: 100%;
+
+        // width: 100%;
+        // height:100%;
         padding-bottom: 5px;
-        margin: 4px 0;
+        margin: 4px 0;   
     }
     .leftnav p {
         font-weight: bold;
@@ -161,7 +195,7 @@
         border-bottom: 1px dotted #959595;
         width: 450px;
         height: 42px;
-        line-height: 20px;
+        // line-height: 20px;
     }
     .leftnav ul li {
         margin-top: 3px;
@@ -183,6 +217,7 @@
         position: absolute;
         top: 0;
         left: 460px;
+       
     }
     .rightnav h3 {
         text-align: left;

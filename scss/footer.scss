@@ -1,7 +1,7 @@
 @import "./both.scss";
 .footer {
   width: 100%;
-  height: 1000px;
+  height: 100%;
   .box1 {
     width: 1200px;
     height: 170px;
@@ -56,10 +56,36 @@
         height: 40px; //    background: #0a0;
         li {
           width: 27px;
-          height: 22px;
+          height: 25px;
           float: left;
           margin: 20px 28px 0 7px;
+          background:url(http://www.xiustatic.com/static/css/default/img/comm/footer_sprite.gif)no-repeat;
         }
+        .weixin{
+          background-position:left -226px; 
+        }
+        .weibo{
+          background-position:-70px -226px; 
+        }
+        .instagram{
+          background-position: -144px -226px;
+        }
+        .facebook{
+          background-position: -214px -226px;
+        }
+        .weixin:hover{
+          background-position:left -263px; 
+        }
+        .weibo:hover{
+          background-position: -70px -263px;
+        }
+        .instagram:hover{
+          background-position: -144px -263px;
+        }
+        .facebook:hover{
+          background-position: -214px -263px;
+        }
+      
       }
       input {
         width: 253px;
@@ -112,7 +138,7 @@
   }
   .for_btn {
     width: 1200px;
-    height: 70px;
+    height: 50px;
     margin: 0 auto;
     padding: 10px 0;
 
@@ -131,5 +157,34 @@
         height: 44px;
       }
     }
+  }
+  .copyr{
+    width:1200px;
+    height:20px;
+    min-width:1000px;
+    line-height: 20px;
+    text-align: center;
+    color:#999;
+    margin:0 auto;
+    a{
+      margin:0 3px;
+      color:#999;
+      font-weight: bold;
+    }
+    a:hover{
+      color:#3aff60;
+    }
+  }
+  .des_div{
+     height:29px;
+     overflow: hidden;
+     padding:10px 0;
+     width:1000px;
+     margin:0 auto;
+     text-align: center;
+     a{
+       display: inline-block;
+       margin: 0 0 0 12px;
+     }
   }
 }

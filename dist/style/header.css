@@ -12,7 +12,8 @@ ul, ol {
   text-align: center; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #000; }
 
 i, em {
   font-style: normal; }
@@ -22,93 +23,115 @@ p {
   padding: 0;
   font-size: 12px; }
 
-.fix {
+.fix_hg {
   width: 100%;
-  height: 100%;
-  background: #333; }
-
-.box {
-  width: 1200px;
   height: 93px;
-  background: url(../img/top.jpg) no-repeat 50% 6px;
-  position: relative;
-  margin: 0 auto; }
-  .box .box1 {
-    width: 400px;
-    height: 20px;
-    float: left;
-    padding-top: 15px; }
-    .box .box1 li {
-      width: 80px;
-      float: left;
-      position: relative; }
-      .box .box1 li a {
-        display: block;
-        width: 80px;
-        color: #d7d7d7; }
-    .box .box1 li:nth-child(3) ol {
-      width: 70px;
-      height: 160px;
-      display: none;
-      background: #fff;
-      position: absolute;
-      top: -3px;
-      padding: 0;
-      z-index: 20; }
-      .box .box1 li:nth-child(3) ol li {
-        line-height: 25px;
-        width: 75px;
-        color: #000;
-        text-align: center; }
-      .box .box1 li:nth-child(3) ol a {
-        display: block;
-        color: #787878;
-        text-align: center; }
-      .box .box1 li:nth-child(3) ol a:hover {
-        color: red; }
-    .box .box1 a:hover {
-      color: #787878; }
-  .box li:nth-child(3):hover ol {
-    display: block; }
-  .box input {
-    width: 260px;
-    height: 25px;
-    background: #333;
-    border: 1px solid #787878;
-    color: #787878;
-    position: absolute;
-    right: 0;
-    top: 10px; }
-
-.nav1 {
-  width: 1200px;
-  height: 44px;
-  position: relative;
-  top: 48px;
-  left: 0;
-  margin: 0 auto; }
-  .nav1 .listnav {
-    width: 800px;
-    height: 44px;
+  background: #333;
+  position: a; }
+  .fix_hg .top_warp {
+    width: 1200px;
+    height: 83px;
     margin: 0 auto;
-    position: absolute;
-    left: 200px;
-    z-index: 5; }
-    .nav1 .listnav li {
-      height: 44px;
-      line-height: 44px;
-      margin: 0 auto;
-      display: inline-block; }
-      .nav1 .listnav li a {
+    padding: 10px 0 0;
+    background: url(../img/top.jpg) no-repeat 50% 6px; }
+    .fix_hg .top_warp .rgto {
+      width: 400px;
+      height: 34px;
+      float: left; }
+      .fix_hg .top_warp .rgto a {
         display: inline-block;
-        color: #fff;
-        font-size: 15px;
-        padding: 12px 15px 10px;
-        margin: 0 6px;
-        line-height: 20px; }
-    .nav1 .listnav a:hover {
-      color: #8eb1bf;
-      border-bottom: 3px solid #727071; }
+        color: #d7d7d7; }
+      .fix_hg .top_warp .rgto ul {
+        width: 400px;
+        height: 34px;
+        text-align: left; }
+        .fix_hg .top_warp .rgto ul li {
+          display: inline-block;
+          text-align: center; }
+        .fix_hg .top_warp .rgto ul .my_bag {
+          width: 96px;
+          height: 35px;
+          margin: 0 4px 0 0;
+          position: relative; }
+          .fix_hg .top_warp .rgto ul .my_bag a {
+            display: inline-block;
+            color: #d7d7d7; }
+          .fix_hg .top_warp .rgto ul .my_bag .mybag {
+            width: 298px;
+            height: 67px;
+            background: #fff;
+            display: none;
+            position: absolute;
+            top: 35px;
+            left: 0px; }
+            .fix_hg .top_warp .rgto ul .my_bag .mybag p {
+              line-height: 30px;
+              text-align: left;
+              margin-left: 8px; }
+        .fix_hg .top_warp .rgto ul .login {
+          margin: 0 10px; }
+        .fix_hg .top_warp .rgto ul .myxiu {
+          width: 73px;
+          height: 40px;
+          position: relative; }
+          .fix_hg .top_warp .rgto ul .myxiu .ared {
+            width: 73px;
+            height: 40px; }
+          .fix_hg .top_warp .rgto ul .myxiu div {
+            width: 73px;
+            position: absolute;
+            top: 20px;
+            left: 0px;
+            background: #fff;
+            display: none; }
+            .fix_hg .top_warp .rgto ul .myxiu div a {
+              display: block;
+              color: #000;
+              line-height: 25px; }
+        .fix_hg .top_warp .rgto ul .myxiu:hover div {
+          display: block; }
+        .fix_hg .top_warp .rgto ul .myxiu:hover {
+          background: #fff; }
+      .fix_hg .top_warp .rgto .my_bag:hover a {
+        color: red; }
+      .fix_hg .top_warp .rgto a:hover {
+        color: #787867; }
+      .fix_hg .top_warp .rgto .my_bag:hover .mybag {
+        display: block; }
+      .fix_hg .top_warp .rgto .myxiu:hover .ared {
+        color: red; }
+  .fix_hg .my_bag:hover {
+    background: #fff; }
+  .fix_hg input {
+    width: 260px;
+    height: 22px;
+    float: right;
+    color: #787878;
+    border: 1px solid #787878;
+    background: #333; }
+  .fix_hg .nav1 {
+    width: 100%;
+    height: 44px;
+    position: absolute;
+    top: 48px;
+    left: 0; }
+    .fix_hg .nav1 .listnav {
+      width: 1200px;
+      height: 44px;
+      margin: 0 auto;
+      text-align: center; }
+      .fix_hg .nav1 .listnav li {
+        display: inline-block; }
+        .fix_hg .nav1 .listnav li a {
+          display: inline-block;
+          color: #fff;
+          font-size: 15px;
+          padding: 12px 15px 10px;
+          margin: 0 6px;
+          line-height: 20px; }
+      .fix_hg .nav1 .listnav a:hover {
+        color: #8eb1bf;
+        border-bottom: 3px solid #727071; }
 
 .nav-back {
   width: 100%;
@@ -145,8 +168,6 @@ p {
     z-index: 100; }
   .nav-back .leftnav {
     float: left;
-    clear: both;
-    width: 100%;
     padding-bottom: 5px;
     margin: 4px 0; }
   .nav-back .leftnav p {
@@ -156,8 +177,7 @@ p {
   .nav-back .leftnav ul {
     border-bottom: 1px dotted #959595;
     width: 450px;
-    height: 42px;
-    line-height: 20px; }
+    height: 42px; }
   .nav-back .leftnav ul li {
     margin-top: 3px;
     height: 15px;
